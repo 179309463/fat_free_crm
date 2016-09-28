@@ -7,8 +7,8 @@ when "mysql"; gem "mysql2"
 when "sqlite"; gem "sqlite3"
 when "postgres"; gem "pg"
 else
-  # gem 'mysql2'
-  # gem 'sqlite3'
+  gem 'mysql2'
+  gem 'sqlite3'
   gem 'pg'
 end
 
